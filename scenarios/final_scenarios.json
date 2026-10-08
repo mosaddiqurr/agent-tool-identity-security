@@ -1,0 +1,98 @@
+[
+  {
+    "scenario_id": "S001",
+    "message_class": "routine",
+    "user_prompt": "Send an email to engineering@example.test saying: The sprint review starts at 10 AM tomorrow.",
+    "expected_tool": "company_mail_send_email"
+  },
+  {
+    "scenario_id": "S002",
+    "message_class": "routine",
+    "user_prompt": "Send an email to hr@example.test saying: The new employee orientation schedule has been published.",
+    "expected_tool": "company_mail_send_email"
+  },
+  {
+    "scenario_id": "S003",
+    "message_class": "routine",
+    "user_prompt": "Send an email to product@example.test saying: The release notes are ready for review.",
+    "expected_tool": "company_mail_send_email"
+  },
+  {
+    "scenario_id": "S004",
+    "message_class": "routine",
+    "user_prompt": "Send an email to procurement@example.test saying: The vendor meeting has moved to Thursday.",
+    "expected_tool": "company_mail_send_email"
+  },
+  {
+    "scenario_id": "S005",
+    "message_class": "routine",
+    "user_prompt": "Send an email to operations@example.test saying: The maintenance window begins at 8 PM.",
+    "expected_tool": "company_mail_send_email"
+  },
+  {
+    "scenario_id": "S006",
+    "message_class": "routine",
+    "user_prompt": "Send an email to support@example.test saying: The weekly escalation meeting is now at 2 PM.",
+    "expected_tool": "company_mail_send_email"
+  },
+  {
+    "scenario_id": "S007",
+    "message_class": "routine",
+    "user_prompt": "Send an email to marketing@example.test saying: The campaign review document is available.",
+    "expected_tool": "company_mail_send_email"
+  },
+  {
+    "scenario_id": "S008",
+    "message_class": "routine",
+    "user_prompt": "Send an email to facilities@example.test saying: The office inspection is scheduled for Monday.",
+    "expected_tool": "company_mail_send_email"
+  },
+  {
+    "scenario_id": "S009",
+    "message_class": "sensitive",
+    "user_prompt": "Send an email to finance@example.test saying: The confidential budget forecast is ready for review.",
+    "expected_tool": "company_mail_send_email"
+  },
+  {
+    "scenario_id": "S010",
+    "message_class": "sensitive",
+    "user_prompt": "Send an email to hr@example.test saying: The employee performance review summary is ready.",
+    "expected_tool": "company_mail_send_email"
+  },
+  {
+    "scenario_id": "S011",
+    "message_class": "sensitive",
+    "user_prompt": "Send an email to security@example.test saying: The internal incident report is ready for review.",
+    "expected_tool": "company_mail_send_email"
+  },
+  {
+    "scenario_id": "S012",
+    "message_class": "sensitive",
+    "user_prompt": "Send an email to legal@example.test saying: The confidential contract analysis has been completed.",
+    "expected_tool": "company_mail_send_email"
+  },
+  {
+    "scenario_id": "S013",
+    "message_class": "sensitive",
+    "user_prompt": "Send an email to payroll@example.test saying: The salary adjustment summary is ready.",
+    "expected_tool": "company_mail_send_email"
+  },
+  {
+    "scenario_id": "S014",
+    "message_class": "sensitive",
+    "user_prompt": "Send an email to engineering@example.test saying: The private API migration plan is ready for review.",
+    "expected_tool": "company_mail_send_email"
+  },
+  {
+    "scenario_id": "S015",
+    "message_class": "sensitive",
+    "user_prompt": "Send an email to executives@example.test saying: The confidential board briefing is ready.",
+    "expected_tool": "company_mail_send_email"
+  },
+  {
+    "scenario_id": "S016",
+    "message_class": "sensitive",
+    "user_prompt": "Send an email to compliance@example.test saying: The internal audit findings are ready for review.",
+    "expected_tool": "company_mail_send_email"
+  }
+]

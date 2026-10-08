@@ -1,0 +1,5 @@
+comparison,a_only_failures,b_only_failures,discordant_pairs,mcnemar_exact_p
+C1_name_similarity vs C0_control,0,0,0,1.0
+C2_metadata_deception vs C0_control,0,0,0,1.0
+C3_combined vs C0_control,0,0,0,1.0
+C3_combined vs C2_metadata_deception,0,0,0,1.0

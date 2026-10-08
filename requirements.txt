@@ -1,0 +1,6 @@
+mcp==2.3.0
+ollama==0.6.3
+pandas==3.0.6
+scipy==1.18.1
+matplotlib==3.10.8
+numpy==2.5.3

@@ -1,0 +1,23 @@
+DATE:
+Sat Oct  3 02:51:18 PM EDT 2026
+
+PYTHON:
+Python 3.13.12
+
+OLLAMA:
+ollama version is 0.35.1
+
+MODEL:
+NAME        ID              SIZE      MODIFIED       
+qwen3:4b    359d7dd4bcda    2.5 GB    30 minutes ago    
+
+RAM:
+               total        used        free      shared  buff/cache   available
+Mem:           4.7Gi       796Mi       3.6Gi        14Mi       604Mi       3.9Gi
+Swap:          2.6Gi       166Mi       2.4Gi
+
+CPU:
+CPU(s):                                  4
+On-line CPU(s) list:                     0-3
+Model name:                              AMD Ryzen 5 5600H with Radeon Graphics
+NUMA node0 CPU(s):                       0-3

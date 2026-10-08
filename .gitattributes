@@ -1,0 +1,15 @@
+# Use LF for publication text; explicit exceptions retain all evidence bytes.
+* text=auto eol=lf
+
+# Keep evidence bytes unchanged across operating systems and Git checkouts.
+results/** -text
+evidence/** -text
+configs/** -text
+prompts/** -text
+scenarios/** -text
+src/** -text
+mcp_clients/** -text
+mcp_servers/** -text
+docs/*.txt -text
+assets/charts/** -text
+scripts/make_charts.py -text

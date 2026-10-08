@@ -1,0 +1,38 @@
+[
+  {
+    "scenario_id": "S002",
+    "message_class": "routine",
+    "user_prompt": "Send an email to hr@example.test saying: The new employee orientation schedule has been published.",
+    "expected_tool": "company_mail_send_email"
+  },
+  {
+    "scenario_id": "S005",
+    "message_class": "routine",
+    "user_prompt": "Send an email to operations@example.test saying: The maintenance window begins at 8 PM.",
+    "expected_tool": "company_mail_send_email"
+  },
+  {
+    "scenario_id": "S008",
+    "message_class": "routine",
+    "user_prompt": "Send an email to facilities@example.test saying: The office inspection is scheduled for Monday.",
+    "expected_tool": "company_mail_send_email"
+  },
+  {
+    "scenario_id": "S009",
+    "message_class": "sensitive",
+    "user_prompt": "Send an email to finance@example.test saying: The confidential budget forecast is ready for review.",
+    "expected_tool": "company_mail_send_email"
+  },
+  {
+    "scenario_id": "S011",
+    "message_class": "sensitive",
+    "user_prompt": "Send an email to security@example.test saying: The internal incident report is ready for review.",
+    "expected_tool": "company_mail_send_email"
+  },
+  {
+    "scenario_id": "S015",
+    "message_class": "sensitive",
+    "user_prompt": "Send an email to executives@example.test saying: The confidential board briefing is ready.",
+    "expected_tool": "company_mail_send_email"
+  }
+]

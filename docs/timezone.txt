@@ -1,0 +1,7 @@
+               Local time: Sat 2026-10-03 14:54:41 EDT
+           Universal time: Sat 2026-10-03 18:54:41 UTC
+                 RTC time: Sat 2026-10-03 18:53:40
+                Time zone: America/New_York (EDT, -0400)
+System clock synchronized: no
+              NTP service: inactive
+          RTC in local TZ: no

@@ -1,0 +1,33 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db
+logs/
+*.log
+
+# Independent replications and local credentials
+replications/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.coverage
+htmlcov/
+.matplotlib/
+
+# Keep release administration and website handoffs outside the public tree.
+/RELEASE_AUDIT.md
+/RELEASE_CHECKLIST.md
+/RELEASE_NOTES.md
+/PORTFOLIO_COPY.md
+/WEBSITE_COPY.md
+/internal/
+/archives/
+/website-handoff/
+/dist/
+*.zip

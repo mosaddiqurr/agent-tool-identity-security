@@ -1,0 +1,33 @@
+name: Publication evidence audit
+
+on: [push, pull_request, workflow_dispatch]
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    name: Evidence audit (${{ matrix.os }})
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1, verified 2026-10-08
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0, verified 2026-10-08
+        with:
+          python-version: "3.12"
+      - name: Verify frozen checksums
+        run: python -B scripts/verify_checksums.py
+      - name: Verify all trials and statistical summaries
+        run: python -B scripts/audit_results.py
+      - name: Check syntax, links and publication privacy
+        run: python -B scripts/check_publication.py
+      - name: Check audit failures and replication boundaries
+        run: python -B -m unittest discover -s tests -v

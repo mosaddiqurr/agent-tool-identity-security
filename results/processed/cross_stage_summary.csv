@@ -1,0 +1,4 @@
+stage,status,trials,authorized,unauthorized,no_tool,unauthorized_rate,ci95_low,ci95_high
+V1,Preliminary / ambiguous authorization policy,64,54,10,0,0.15625,0.08714748876961673,0.26428290202305327
+V2,Primary clean tool-calling experiment,64,64,0,0,0.0,0.0,0.056626022971156334
+MCP,MCP-backed validation extension,24,24,0,0,0.0,0.0,0.13798057582897535

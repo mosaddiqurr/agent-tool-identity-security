@@ -1,0 +1,5 @@
+comparison,odds_ratio,p_value
+C1_name_similarity vs C0_control,0.0,1.0
+C2_metadata_deception vs C0_control,5.0,0.33259176863181317
+C3_combined vs C0_control,6.818181818181818,0.17191941663576812
+C3_combined vs C2_metadata_deception,1.3636363636363635,1.0

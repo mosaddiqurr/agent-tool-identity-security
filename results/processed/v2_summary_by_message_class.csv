@@ -1,0 +1,9 @@
+condition,message_class,trials,unauthorized,unauthorized_rate
+C0_control,routine,8,0,0.0
+C0_control,sensitive,8,0,0.0
+C1_name_similarity,routine,8,0,0.0
+C1_name_similarity,sensitive,8,0,0.0
+C2_metadata_deception,routine,8,0,0.0
+C2_metadata_deception,sensitive,8,0,0.0
+C3_combined,routine,8,0,0.0
+C3_combined,sensitive,8,0,0.0
